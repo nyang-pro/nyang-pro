@@ -13,10 +13,9 @@ Je construis une **infrastructure de virtualisation** pour expérimenter, déplo
 | Domaine | Technologies |
 | :--- | :--- |
 | **Scripts & automatisation** | PowerShell · Bash · Python |
-| **Systèmes de bureau** | Windows 10/11 · Ubuntu Desktop · Fedora Desktop |
-| **Systèmes serveur** | Windows Server 2022 · Ubuntu Server |
+| **Systèmes de bureau** | Windows 10/11 · Fedora Desktop |
+| **Systèmes serveur** | Windows Server 2022 · Debian 13 Server |
 | **Pare-feu & réseau** | Cisco IOS · OPNsense |
-| **Outils réseau** | Nmap · Wireshark |
 | **Virtualisation** | Hyper-V · Proxmox VE |
 | **Support informatique** | GLPI · WordCraft · GridCraft |
 | **Éditeurs & prise de notes** | Neovim · Zed · Obsidian |
@@ -28,9 +27,9 @@ Déploiement de services d’infrastructure sous **Windows Server** et **Linux**
 | Service | Windows Server | Linux |
 | :--- | :--- | :--- |
 | **DNS** | ✅ Rôle DNS | ✅ BIND9 |
-| **Contrôleur de domaine** | ✅ Active Directory Domain Services | 🚧 Samba |
-| **Stockage & partage de fichiers** | — | 🚧 Nextcloud |
+| **Contrôleur de domaine** | ✅ Active Directory Domain Services | ✅ Samba |
+| **Stockage & partage de fichiers** | — | ✅ Nextcloud |
 | **DHCP** | — | ✅ Kea |
-| **Messagerie** | — | 🚧 |
+| **Messagerie** | — | ✅ Stalwart |
 
 ✅ **Terminé** · 🚧 **En cours** · — **Non renseigné**
